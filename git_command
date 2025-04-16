@@ -51,5 +51,6 @@ git status	Shows working directory + staging area status
 
 15. git checkout <branch name>  --> switch to another branch 
 
-16. git branch -b <new branch name> --> Renames the current branch to <new-name>
+16. git branch -m <new branch name> --> Renames the current branch to <new-name>
 
+17. git branch -b <new-branch-name>  --> Creates a new branch but doesn’t switch to it.
