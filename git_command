@@ -41,6 +41,15 @@ git status	Shows working directory + staging area status
 
 10. git config --global user.name "Your Name"
 
-11. git fetch --> it will fetch the all the latest changes but did not change anything in code base on server.
+11. git push --> to push code to the repository 
 
-12. git pull --> it will also fetch the all the latest changes and also change in file.
+12. git fetch --> it will fetch the all the latest changes but did not change anything in code base on server.
+
+13. git pull --> it will also fetch the all the latest changes and also change in file.
+
+14. git checkout -b <new_branch name>  --> it will checkout the branch also and create the new branch and the code also 
+
+15. git checkout <branch name>  --> switch to another branch 
+
+16. git branch -b <new branch name> --> Renames the current branch to <new-name>
+
