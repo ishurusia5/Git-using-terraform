@@ -29,8 +29,18 @@ git status	Shows working directory + staging area status
 
 4. git reset <file name> --> to remove file from staging aera
 
-5. git commit -m "commit message" -- to commit file to the working directory or area.
+5. git commit -m "commit message" --> to commit file to the working directory or area.
 
 6. git reset HEAD~1  --> to undo the commit 
 
-7. 
+7. git remote add origin git@github.com:ishurusia5/Git-using-terraform.git --> to add git url in remote repo under .git folder / config file 
+
+8. git remote set-url origin git@github.com:ishurusia5/Git-using-terraform.git --> to replace the git repo url 
+
+9. git config --global user.email "you@example.com"
+
+10. git config --global user.name "Your Name"
+
+11. git fetch --> it will fetch the all the latest changes but did not change anything in code base on server.
+
+12. git pull --> it will also fetch the all the latest changes and also change in file.
