@@ -1,0 +1,36 @@
+## basic commands ##
+
+
+1. git init --> initalize the empty git repo and create .git folder 
+
+2. git status  --> it give info about branch, commit, tracked and untracked file 
+
+######################## GIT IGNORE FILE ###############################
+
+In this if you don't want to push your credentials or sensitive 
+data file like .env, cred file or more for that we use .gitignore file
+and after you do git status you only see file which is not in .gitignore
+file as a untracked or tracked file.
+
+########################################################################
+
+
+Command	What it does
+git add <file>	Adds file to staging area
+git reset <file>	Removes file from staging area
+git reset	Removes all files from staging area
+git diff	Shows unstaged changes
+git diff --staged	Shows staged changes
+git status	Shows working directory + staging area status
+
+########################################################################
+
+3. git add . --> to add file in staging area 
+
+4. git reset <file name> --> to remove file from staging aera
+
+5. git commit -m "commit message" -- to commit file to the working directory or area.
+
+6. git reset HEAD~1  --> to undo the commit 
+
+7. 
