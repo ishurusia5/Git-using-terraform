@@ -53,4 +53,6 @@ git status	Shows working directory + staging area status
 
 16. git branch -m <new branch name> --> Renames the current branch to <new-name>
 
-17. git branch -b <new-branch-name>  --> Creates a new branch but doesn’t switch to it.
+17. git branch -b <new-branch-name>  --> Creates a new branch but doesn't switch to it.
+
+18. git merge <from dev> < to master > --> in git merge we need to checkout to the branch in which we need to merge the code and than run the 
