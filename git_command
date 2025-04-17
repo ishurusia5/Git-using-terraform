@@ -1,4 +1,4 @@
-## basic commands ##
+##  BASIC COMMANDS  ##
 
 
 1. git init --> initalize the empty git repo and create .git folder 
@@ -55,4 +55,17 @@ git status	Shows working directory + staging area status
 
 17. git branch -b <new-branch-name>  --> Creates a new branch but doesn't switch to it.
 
-18. git merge <from dev> < to master > --> in git merge we need to checkout to the branch in which we need to merge the code and than run the 
+18. git merge <from dev> < to master > --> in git merge we need to checkout to the branch in which we need to merge the code and than run the merge command
+                                            also git merge maintain the commit history.
+
+19. git rebase dev --> run this command on master branch where you want to merge dev changes. it delete the commit history to liner the specific branch commit history
+
+20. git stash --> it is just for temporarily store the changes which you don't want loss while working on other feature.
+
+21. git stash pop --> to again undo the stash changes
+
+22. git reset --soft commit-id --> it just remove the commit id like i have 10 commint and i want to reset to commit 6 than all the commit above 6 will remove and 6 commit will become head commit but it doesnot hamper the files
+
+
+23. git reset --hard commit-id --> it also delete file also.
+
